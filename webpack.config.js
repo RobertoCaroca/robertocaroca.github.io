@@ -1,9 +1,9 @@
-const miniCssExtractPlugin = require('mini-css-extract-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const path = require('path')
 
 module.exports = {
   entry: './src/js/main.js',
-  plugins: [new miniCssExtractPlugin()],
+  plugins: [new MiniCssExtractPlugin()],
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist')
@@ -20,7 +20,8 @@ module.exports = {
         use: [
           {
             // Extracts CSS for each JS file that includes CSS
-            loader: miniCssExtractPlugin.loader
+            loader: MiniCssExtractPlugin.loader,
+            publicPath: ''
           },
           {
             loader: 'css-loader'
@@ -39,7 +40,31 @@ module.exports = {
             loader: 'sass-loader'
           }
         ]
+      },
+      {
+        test: /\.(css)$/,
+        use: [
+          {
+            // Extracts CSS for each JS file that includes CSS
+            loader: MiniCssExtractPlugin.loader,
+            publicPath: ''
+          },
+          {
+            loader: 'css-loader'
+          },
+        ]
+      },
+      {
+        test: /bootstrap\/dist\/css\/bootstrap.min.css/,
+        use: [
+          {
+            loader: 'style-loader'
+          },
+          {
+            loader: 'css-loader'
+          }
+        ]
       }
     ]
   }
-}
+};

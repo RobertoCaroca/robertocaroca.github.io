@@ -4,5 +4,5 @@ import '../scss/styles.scss';
 // Import all Bootstrap JS
 import * as bootstrap from 'bootstrap'; 
  
-// Import the style.css file
+// Import style.css
 import '../css/style.css';
