@@ -1,0 +1,26 @@
+{
+  "name": "robertocaroca.github.io",
+  "version": "1.0.0",
+  "description": "https://robertocaroca.github.io/",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertoCaroca/robertocaroca.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobertoCaroca/robertocaroca.github.io/issues"
+  },
+  "homepage": "https://github.com/RobertoCaroca/robertocaroca.github.io#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2"
+  }
+}
