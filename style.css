@@ -94,6 +94,26 @@ footer {
   padding: 1rem;
 }
 
+.hero-section {
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+  }
+  
+  .hero-section h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .hero-section p {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
 /* Responsive styles */
 
 @media screen and (max-width: 767px) {
