@@ -42,7 +42,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.(css)$/,
+        test: /\.(css)$/i,
         use: [
           {
             // Extracts CSS for each JS file that includes CSS
