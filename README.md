@@ -11,12 +11,6 @@ Version 1.0 description: Esta es la primera version de mi portafolio la cual inc
    2. Eye Exercise: Ejercicio para interactuar con el curso de tu pantalla a traves de unos ojos que no dejan de seguirlo.
    3. Real Time Bus Tracker Exercise: Ejercicio para obtener data externa que muestre las parada de una autobus en tiempo real.
 
-How to Run: Clone mi repositorio en tu computador y comienza a trabajar en tu propio sitio web.
-
-Para clonarlo abre la terminal en tu computador y ejecuta el siguiente comando:
-
-gh repo clone RobertoCaroca/robertocaroca.github.io
-cd nombre-de-tu-proyecto
 
 Roadmap of future improvements: 
 
