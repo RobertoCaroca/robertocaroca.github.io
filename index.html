@@ -4,60 +4,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Roberto Caroca</title>
-  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./style.css">
+    <!-- Add Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!-- Add Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </head>
 <body>
+<div class="grid">
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Roberto Caroca</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Roberto Caroca</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projectos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Packman</a></li>
+                  <li><a class="dropdown-item" href="#">Eyes</a></li>
+                  <li><a class="dropdown-item" href="#">Real Time Bus Tracker</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
   </header>
-
-  <main>
-    <body>
-    <div class="container">
-        <div class="hero-container">
-            <div class="hero-photo col-4">
+  <div class="hero">
+            <div class="hero-photo">
               <img src="./profile photo.jpeg" alt="Profile Picture" class="img-fluid rounded-circle mb-3">
             </div>
-            <div class="hero-content col-8">
+            <div class="hero-content">
               <h1>Roberto Caroca</h1>
               <h2>Chief Product Officer</h2>
               <p>Bachelor of Business, with a master's degree in cognitive studies, Certification in Design Thinking, Software Product Management and Digital Transformation.</p>
             </div>
-        </div>                
-        <div class="col-md-8">
-          <div class="card mb-3">
-            <div class="card-header">
-              <h3>About Me</h3>
-            </div>
-            <div class="card-body">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus aliquam leo, at faucibus risus. Nullam convallis, nibh eget eleifend varius, velit lorem lobortis nulla, a lobortis risus sapien in magna. Donec sed justo vel risus facilisis lobortis eu vitae eros.</p>
-            </div>
-          </div>
-          <div class="card mb-3">
+  </div>
+  <div class="content">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/MQ19aFB5DPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <div class="card text-bg-light mb-3">
             <div class="card-header">
               <h3>Experience</h3>
             </div>
@@ -68,32 +59,31 @@
                 <li>Responsibility 1</li>
                 <li>Responsibility 2</li>
                 <li>Responsibility 3</li>
-                </ul>
-      
-                <h4>Yapo.cl</h4>
-                <p><em>CPO&COO</em> | <em>From 2015 to 2019</em></p>
-                <ul>
-                  <li>Responsibility 1</li>
-                  <li>Responsibility 2</li>
-                  <li>Responsibility 3</li>
-                </ul>
-              </div>
+              </ul>
+              <h4>Yapo.cl</h4>
+              <p><em>CPO&COO</em> | <em>From 2015 to 2019</em></p>
+              <ul>
+                <li>Responsibility 1</li>
+                <li>Responsibility 2</li>
+                <li>Responsibility 3</li>
+              </ul>
+           </div>
+      </div>
+      <div class="card text-bg-light mb-3">
+            <div class="card-header">
+              <h3>Skills</h3>
             </div>
-            <div class="card mb-3">
-              <div class="card-header">
-                <h3>Skills</h3>
-              </div>
-              <div class="card-body">
-                <ul class="list-unstyled">
-                  <li>Design Thinking</li>
-                  <li>Software Product Development</li>
-                  <li>Digital Transformation</li>
-                  <li>Agile Methodologies</li>
-                  <li>MERN Stack</li>
-                </ul>
-              </div>
+            <div class="card-body">
+              <ul>
+                <li>Design Thinking</li>
+                <li>Software Product Development</li>
+                <li>Digital Transformation</li>
+                <li>Agile Methodologies</li>
+                <li>MERN Stack</li>
+              </ul>
             </div>
-            <div class="card mb-3">
+      </div>
+      <div class="card text-bg-light mb-3">
               <div class="card-header">
                 <h3>Portfolio</h3>
               </div>
@@ -105,8 +95,8 @@
                   <li><a href="#">Real Time Bus Tracker</a></li>
                 </ul>
               </div>
-            </div>
-            <div class="card mb-3">
+      </div>
+      <div class="card text-bg-light mb-3">
               <div class="card-header">
                 <h3>Contact Me</h3>
               </div>
@@ -117,19 +107,17 @@
                   <li>LinkedIn: <a href="#">linkedin.com/in/robertocaroca</a></li>
                 </ul>
               </div>
-            </div>
-          </div>
-        </div>
       </div>
-        </main>
-        <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
+  </div>
+  <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
                 <p>&copy; 2023 Roberto Caroca. All rights reserved.</p>
-              </div>
             </div>
-          </div>
-        </footer>
-      </body>
-      </html>
+        </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
