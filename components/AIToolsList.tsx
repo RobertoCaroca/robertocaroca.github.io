@@ -3,7 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { TextAnimate } from "@/components/ui/text-animate";
-import { Button } from "@/components/ui/button";
 
 interface AITool {
   name: string;
