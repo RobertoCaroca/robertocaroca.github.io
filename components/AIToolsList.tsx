@@ -21,13 +21,6 @@ const aiTools: AITool[] = [
     category: "LLMs"
   },
   {
-    name: "Grazia AI",
-    description: "Plataforma de videos y fotografia de productos con IA",
-    image: "/screenshots/grazia.png",
-    url: "https://www.grazia.ai/",
-    category: "Multimedia"
-  },
-  {
     name: "Imagine Art",
     description: "Crea y explora imágenes, videos y audio con IA",
     image: "/screenshots/imagine.png",
@@ -40,6 +33,13 @@ const aiTools: AITool[] = [
     image: "/screenshots/invideo.png",
     url: "https://invideo.io/",
     category: "Video"
+  },
+  {
+    name: "Grazia AI",
+    description: "Plataforma de videos y fotografia de productos con IA",
+    image: "/screenshots/grazia.png",
+    url: "https://www.grazia.ai/",
+    category: "Multimedia"
   },
   {
     name: "Luma Labs",
