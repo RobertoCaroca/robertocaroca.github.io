@@ -24,7 +24,6 @@ function easeOutCubic(t: number): number {
 export function IconCloud({ icons, images }: IconCloudProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [iconPositions, setIconPositions] = useState<Icon[]>([]);
-  const rotation = useRef<{x: number, y: number}>({ x: 0, y: 0 });
   const [isDragging, setIsDragging] = useState(false);
   interface Coordinates {
     x: number;
