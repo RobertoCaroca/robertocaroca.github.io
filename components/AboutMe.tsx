@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { TextAnimate } from "@/components/ui/text-animate";
 import { TextReveal } from "@/components/ui/text-reveal";
+import { Button } from "@/components/ui/button";
 
 export default function AboutMe() {
   return (
@@ -35,6 +36,11 @@ export default function AboutMe() {
               text="• 15 años desarrollando producto tecnológico  • Magíster en Filosofía de la Mente y Estudios Cognitivos  • 2 años desarrollando productos con AI"
               className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-relaxed"
             />
+          </div>
+          <div className="text-center mt-16">
+            <Button href="#ai-section">
+              Descubrir AI
+            </Button>
           </div>
         </div>
       </div>
