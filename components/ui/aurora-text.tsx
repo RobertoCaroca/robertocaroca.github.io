@@ -7,7 +7,7 @@ import React, { ComponentType } from "react";
 interface AuroraTextProps extends HTMLMotionProps<"div"> {
   className?: string;
   children: React.ReactNode;
-  as?: string | ComponentType<any>;
+  as?: string | React.ComponentType<any>;
 }
 
 export function AuroraText({

@@ -176,7 +176,10 @@ const DotMatrix: React.FC<DotMatrixProps> = ({
 };
 
 interface Uniforms {
-  [key: string]: { value: any };
+  [key: string]: { 
+    value: number | number[] | number[][] | THREE.Vector2 | THREE.Vector3;
+    type?: string;
+  };
 }
 
 const ShaderMaterial = ({
@@ -190,7 +193,7 @@ const ShaderMaterial = ({
   uniforms: Uniforms;
 }) => {
   const { size } = useThree();
-  const ref = useRef<THREE.Mesh>();
+  const ref = useRef<THREE.Mesh>(null);
   let lastFrameTime = 0;
 
   useFrame(({ clock }) => {
