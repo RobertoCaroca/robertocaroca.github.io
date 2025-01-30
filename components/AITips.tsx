@@ -69,7 +69,14 @@ export default function AITips() {
   );
 }
 
-const Card = ({ title, color, animationSpeed, colors }: any) => {
+interface CardProps {
+  title: string;
+  color: string;
+  animationSpeed: number;
+  colors?: number[][];
+}
+
+const Card = ({ title, color, animationSpeed, colors }: CardProps) => {
   const [hovered, setHovered] = React.useState(false);
   
   return (
@@ -134,7 +141,7 @@ const AceternityIcon = () => {
   );
 };
 
-const Icon = ({ className, ...rest }: any) => {
+const Icon = ({ className, ...rest }: { className?: string; [key: string]: any }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

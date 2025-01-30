@@ -3,12 +3,8 @@
 import Image from "next/image";
 import { TextAnimate } from "@/components/ui/text-animate";
 import { TextReveal } from "@/components/ui/text-reveal";
-import { FlickeringGrid } from "@/components/ui/flickering-grid";
-import { useTheme } from "next-themes";
 
 export default function AboutMe() {
-  const { theme } = useTheme();
-
   return (
     <section id="about-section" className="py-24 sm:py-32 flex items-center">
       <div className="container mx-auto px-4 relative z-10">
