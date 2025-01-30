@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { TextAnimate } from "@/components/ui/text-animate";
 import { Button } from "@/components/ui/button";
 
@@ -21,13 +20,17 @@ export default function AboutMe() {
           </TextAnimate>
 
           <div className="mb-12 sm:mb-16 relative h-80 w-80 mx-auto overflow-hidden rounded-full border-4 border-white shadow-lg">
-            <Image
-              src="/profile.jpg"
-              alt="Roberto Caroca"
-              fill
-              priority
-              className="object-cover"
-            />
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="absolute inset-0 h-full w-full object-cover"
+            >
+              <source src="/profile.mp4" type="video/mp4" />
+              {/* Fallback for older browsers */}
+              Your browser does not support the video tag.
+            </video>
           </div>
 
           <div className="max-w-2xl mx-auto">
