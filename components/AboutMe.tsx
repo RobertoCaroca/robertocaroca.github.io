@@ -35,7 +35,13 @@ export default function AboutMe() {
             <ul className="space-y-0 list-none">
               <li>
                 <TextReveal 
-                  text="15 años desarrollando producto tecnológico"
+                  text="Licenciado en Negocios y Economía"
+                  className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal"
+                />
+              </li>
+              <li>
+                <TextReveal 
+                  text=" Más de 15 años desarrollando producto tecnológico"
                   className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal"
                 />
               </li>
@@ -47,7 +53,19 @@ export default function AboutMe() {
               </li>
               <li>
                 <TextReveal 
-                  text="2 años desarrollando productos con AI"
+                  text="Certificado del MIT en Desorrollo de Software"
+                  className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal"
+                />
+              </li>
+              <li>
+                <TextReveal 
+                  text="Certificado de Stanford en Desarrollo de Productos Tecnologicos"
+                  className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal"
+                />
+              </li>
+              <li>
+                <TextReveal 
+                  text="Más de 2 años desarrollando productos con herramientas de AI"
                   className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal"
                 />
               </li>

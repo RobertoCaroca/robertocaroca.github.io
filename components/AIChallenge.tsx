@@ -41,7 +41,7 @@ export default function AIChallenge() {
         </div>
 
         <TextReveal 
-          text="El progreso en AI no es lineal. Estamos en un momento crítico donde la curva de aprendizaje se vuelve exponencial, creando una brecha significativa entre quienes se adaptan y quienes se quedan atrás."
+          text="El principal problema practico que enfrentamos al usar modelos o herramientas de IA es que despues de un tiempo las respuestas que entrengan esto modelos caen en un sin sentido."
           className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-relaxed"
         />
         <Button className="mt-16" href="#tools-section">

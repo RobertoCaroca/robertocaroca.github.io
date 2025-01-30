@@ -16,7 +16,6 @@ export const TextReveal = ({ text, className }: TextRevealProps) => {
     offset: ["start 80%", "end 20%"],
   });
 
-  const words = text.split(" ");
   const opacity = useTransform(scrollYProgress, [0, 0.5], [0, 1]);
 
   return (

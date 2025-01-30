@@ -91,7 +91,7 @@ export default function AISection() {
           </div>
         </div>
         <TextReveal 
-          text="La inteligencia artificial (IA) es la simulación de procesos de inteligencia humana por parte de máquinas, especialmente sistemas informáticos."
+          text="En la practica lo que llamamos AI son modelos de lenguage (LLM), que son capaces de generar texto basado en un contexto."
           className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-relaxed"
         />
         <Button className="mt-16" href="#tools-section">
