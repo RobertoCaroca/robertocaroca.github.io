@@ -125,11 +125,6 @@ export default function AIToolsList() {
             </Link>
           ))}
         </div>
-        <div className="text-center mt-16">
-          <Button href="#tips-section">
-            Consejos de uso
-          </Button>
-        </div>
       </div>
     </section>
   );

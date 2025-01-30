@@ -4,6 +4,7 @@ import "./globals.css";
 import { Providers } from "./providers"
 import { Noto_Sans } from "next/font/google";
 import { Footer } from "@/components/Footer"
+import { ThemeProvider } from "next-themes"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,11 +34,32 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              try {
+                if (localStorage.theme === 'light') {
+                  document.documentElement.classList.remove('dark')
+                } else {
+                  document.documentElement.classList.add('dark')
+                }
+              } catch (_) {}
+            `,
+          }}
+        />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} ${notoSans.variable} font-sans`}>
-        <Providers>
-          {children}
-          <Footer />
-        </Providers>
+        <ThemeProvider 
+          attribute="class" 
+          defaultTheme="dark"
+          enableSystem={false}
+        >
+          <Providers>
+            {children}
+            <Footer />
+          </Providers>
+        </ThemeProvider>
       </body>
     </html>
   );

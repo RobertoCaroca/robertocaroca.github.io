@@ -144,8 +144,8 @@ export default function AITools() {
           </div>
         </div>
         <TextReveal 
-          text="Las herramientas de IA están transformando la forma en que interactuamos con la tecnología, permitiendo nuevas formas de creación y colaboración."
-          className="mx-auto max-w-xl text-base text-gray-600 dark:text-gray-300 text-center"
+          text="Llamaremos herramientas de IA a aplicaciones que usan modelos de IA para resolver problemas específicos. Lo que hacen estas herramientas es tomar estos modelos y entreneralos en un contexto más específico para que puedan resolver problemas más complejos y entregar resultados más precisos."
+          className="mx-auto my-12 max-w-xl text-base text-gray-600 dark:text-gray-300 text-center"
         />
         <Button className="mt-16" href="#tools-list-section">
           Ver herramientas

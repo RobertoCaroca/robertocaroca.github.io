@@ -38,6 +38,7 @@ body {
     --color-3: 210 100% 63%;
     --color-4: 195 100% 63%;
     --color-5: 90 100% 63%;
+    color-scheme: dark;
   }
   .dark {
     --background: 20 14.3% 4.1%;
@@ -79,4 +80,8 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+html {
+  color-scheme: dark;
 }
