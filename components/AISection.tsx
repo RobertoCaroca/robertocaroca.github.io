@@ -91,7 +91,7 @@ export default function AISection() {
           </div>
         </div>
         <TextReveal 
-          text="En la practica lo que hoy estamos llamamos AI son modelos de procesamiento de lenguage natural...Que? Imagina que una LLM (Large Language Model) es como un gran cerebro artificial que ha leído millones de libros, artículos y conversaciones. No piensa como un humano, pero ha aprendido a predecir qué palabras deben venir después de otras para responder preguntas, escribir textos o traducir idiomas. Es como un asistente que ha estudiado muchísimo y puede ayudarte a redactar un correo, resumir información o incluso programar, pero sin entender realmente el mundo, solo combinando lo que ha aprendido."
+          text="En la practica lo que hoy estamos llamamos AI son modelos de procesamiento de lenguage natural...Que? Imagina que una LLM (Large Language Model) es como una persona que ha leído millones de libros, artículos y conversaciones, al punto que ha aprendido a predecir qué palabras deben venir después de otras para responder preguntas, escribir textos o traducir idiomas. Es como un asistente que ha estudiado muchísimo y puede ayudarte a redactar un correo, resumir información o incluso programar, pero sin entender realmente el mundo, solo combinando lo que ha aprendido. En efecto si una persona leyera 24/7 todos los texto con los que fue ChatGPT entrenado, demoraría 2600 años en leerlo todo."
           className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-relaxed"
         />
         <Button className="mt-16" href="#tools-section">
