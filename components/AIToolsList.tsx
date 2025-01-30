@@ -14,11 +14,11 @@ interface AITool {
 
 const aiTools: AITool[] = [
   {
-    name: "Galileo AI",
-    description: "Diseño de interfaces y experiencias de usuario con IA",
-    image: "/screenshots/galileo.png",
-    url: "https://www.usegalileo.ai/",
-    category: "Diseño UI/UX"
+    name: "Grazia AI",
+    description: "Plataforma de videos y fotografia de productos con IA",
+    image: "/screenshots/grazia.png",
+    url: "https://www.grazia.ai/",
+    category: "Multimedia"
   },
   {
     name: "Imagine Art",
@@ -39,7 +39,7 @@ const aiTools: AITool[] = [
     description: "Creación de videos y visualizaciones 3D con IA",
     image: "/screenshots/luma.png",
     url: "https://lumalabs.ai/dream-machine",
-    category: "3D/Video"
+    category: "Video"
   },
   {
     name: "BHuman",
@@ -60,7 +60,7 @@ const aiTools: AITool[] = [
     description: "Copywriting especializado para bienes raíces",
     image: "/screenshots/writehomes.png",
     url: "https://write.homes/",
-    category: "Copywriting"
+    category: "Bienes Raíces"
   },
   {
     name: "Epique AI",
