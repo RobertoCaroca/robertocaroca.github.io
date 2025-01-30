@@ -8,24 +8,24 @@ import { Button } from "@/components/ui/button";
 
 const tips = [
   {
-    title: "Prompt Engineering",
+    title: "Conversar",
     color: "bg-emerald-900",
     animationSpeed: 5.1,
   },
   {
-    title: "Context Matters",
+    title: "Reiniciar",
     color: "bg-black",
     animationSpeed: 3,
     colors: [[236, 72, 153], [232, 121, 249]],
   },
   {
-    title: "Be Specific",
+    title: "Corregir",
     color: "bg-sky-600",
     animationSpeed: 3,
     colors: [[125, 211, 252]],
   },
   {
-    title: "Iterate & Refine",
+    title: "Voler a reiniciar",
     color: "bg-purple-900",
     animationSpeed: 4,
     colors: [[167, 139, 250]],

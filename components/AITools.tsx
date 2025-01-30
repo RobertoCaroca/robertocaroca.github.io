@@ -97,31 +97,49 @@ export default function AITools() {
               containerRef={containerRef}
               fromRef={div1Ref}
               toRef={div6Ref}
+              pathWidth={4}
+              pathOpacity={0.3}
+              className="blur-[1px]"
             />
             <AnimatedBeam
               containerRef={containerRef}
               fromRef={div2Ref}
               toRef={div6Ref}
+              pathWidth={4}
+              pathOpacity={0.3}
+              className="blur-[1px]"
             />
             <AnimatedBeam
               containerRef={containerRef}
               fromRef={div3Ref}
               toRef={div6Ref}
+              pathWidth={4}
+              pathOpacity={0.3}
+              className="blur-[1px]"
             />
             <AnimatedBeam
               containerRef={containerRef}
               fromRef={div4Ref}
               toRef={div6Ref}
+              pathWidth={4}
+              pathOpacity={0.3}
+              className="blur-[1px]"
             />
             <AnimatedBeam
               containerRef={containerRef}
               fromRef={div5Ref}
               toRef={div6Ref}
+              pathWidth={4}
+              pathOpacity={0.3}
+              className="blur-[1px]"
             />
             <AnimatedBeam
               containerRef={containerRef}
               fromRef={div6Ref}
               toRef={div7Ref}
+              pathWidth={4}
+              pathOpacity={0.3}
+              className="blur-[1px]"
             />
           </div>
         </div>
