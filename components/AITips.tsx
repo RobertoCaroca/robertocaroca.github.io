@@ -123,12 +123,12 @@ const Card = ({ title, description, color, animationSpeed, colors }: CardProps) 
         )}
       </AnimatePresence>
 
-      <div className="relative z-20 flex flex-col items-center justify-center gap-4">
-        <div className="flex items-center justify-center group-hover/canvas-card:-translate-y-4 group-hover/canvas-card:opacity-0 transition duration-200 text-black dark:text-white">
+      <div className="relative z-20 flex flex-col items-center justify-center gap-4 h-full w-full">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform group-hover/canvas-card:-translate-y-[60%] group-hover/canvas-card:opacity-0 transition duration-200 text-black dark:text-white">
           {getIcon(title)}
         </div>
-        <div className="flex flex-col items-center gap-2">
-          <h3 className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 text-black font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
+        <div className="flex flex-col items-center gap-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform w-full">
+          <h3 className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 text-black font-bold group-hover/canvas-card:text-white transition duration-200">
             {title}
           </h3>
           <p className="text-sm opacity-0 group-hover/canvas-card:opacity-100 text-black dark:text-white group-hover/canvas-card:text-white transition duration-200 delay-100 text-center px-4">
