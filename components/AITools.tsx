@@ -47,7 +47,7 @@ export default function AITools() {
           delay={0.2}
           duration={0.5}
         >
-          Herramientas de IA
+          Herramientas de AI
         </TextAnimate>
         <p className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-relaxed">
           Qué son y por qué usarlas
