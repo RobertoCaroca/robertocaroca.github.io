@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 export default function AboutMe() {
   return (
-    <section id="about-section" className="py-24 sm:py-32 flex items-center">
+    <section id="about-section" className="py-12 sm:py-12 flex items-center">
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center">
           <TextAnimate 
@@ -36,26 +36,26 @@ export default function AboutMe() {
           <div className="max-w-2xl mx-auto">
             <ul className="space-y-2 list-none">
               <li className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal">
-                Licenciado en Negocios y Economía
+              Licenciado en Negocios y Economía
               </li>
               <li className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal">
-                Más de 15 años desarrollando producto tecnológico
+              Más de 15 años desarrollando productos tecnológicos
               </li>
               <li className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal">
-                Magíster en Filosofía de la Mente y Estudios Cognitivos
+              Magíster en Filosofía de la Mente y Estudios Cognitivos
               </li>
               <li className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal">
-                Certificado del MIT en Desorrollo de Software
+              Certificado del MIT en Desarrollo de Software
               </li>
               <li className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal">
-                Certificado de Stanford en Desarrollo de Productos Tecnologicos
+              Certificado de Stanford en Desarrollo de Productos Tecnológicos
               </li>
               <li className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal">
-                Más de 2 años desarrollando productos con herramientas de AI
+              Más de 2 años desarrollando productos con herramientas de IA
               </li>
             </ul>
           </div>
-          <div className="text-center mt-16">
+          <div className="text-center my-16">
             <Button href="#ai-section">
               Descubrir AI
             </Button>

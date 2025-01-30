@@ -9,7 +9,7 @@ export default function Hero() {
   const { theme } = useTheme()
 
   return (
-    <section className="min-h-screen pt-32 pb-24">
+    <section className="min-h-screen pt-32">
       <WavyBackground 
         className="max-w-4xl mx-auto"
         containerClassName="min-h-screen pt-32 pb-24"
@@ -28,7 +28,7 @@ export default function Hero() {
             </div>
           </h1>
           <p className="mb-8 text-lg sm:text-xl lg:text-2xl text-foreground/80 font-display max-w-2xl mx-auto">
-            Como prepararse para esta nueva era!
+          ¡Cómo prepararte para esta nueva era!
           </p>
           <Button className="my-10" href="#about-section">
             Descubrir más

@@ -47,17 +47,17 @@ export default function AITools() {
           delay={0.2}
           duration={0.5}
         >
-          Herramientas
+          Herramientas de IA
         </TextAnimate>
         <p className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-relaxed">
-          Descubre las herramientas que están transformando la forma en que trabajamos.
+          Qué son y por qué usarlas
         </p>
         <div className="mb-4 flex justify-center">
           <div
             className="relative flex w-full items-center justify-center overflow-hidden"
             ref={containerRef}
           >
-            <div className="flex size-full flex-row items-stretch justify-between gap-10 max-w-lg">
+            <div className="flex my-12 size-full flex-row items-stretch justify-between gap-10 max-w-lg">
               <div className="flex flex-col justify-center gap-2">
                 <Circle ref={div1Ref}>
                   <Image src="/icons/anthropic.png" alt="Anthropic" width={24} height={24} />
@@ -138,7 +138,7 @@ export default function AITools() {
           </div>
         </div>
         <p className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-relaxed">
-          Llamaremos herramientas de IA a aplicaciones que usan modelos de IA para resolver problemas específicos. Lo que hacen estas herramientas es tomar estos modelos y entreneralos en un contexto más específico para que puedan resolver problemas más complejos y entregar resultados más precisos.
+        Las herramientas de IA son aplicaciones que utilizan modelos de inteligencia artificial para resolver problemas específicos. Estas herramientas no solo aprovechan los modelos existentes, sino que los entrenan en contextos más especializados para mejorar su precisión y capacidad de respuesta. Al adaptar la IA a necesidades concretas, permiten resolver problemas más complejos y ofrecer resultados más útiles y relevantes.
         </p>
         <Button className="mt-16" href="#tools-list-section">
           Ver herramientas
