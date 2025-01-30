@@ -2,12 +2,12 @@
 
 import { cn } from "@/lib/utils";
 import { motion, HTMLMotionProps } from "framer-motion";
-import React, { ComponentType } from "react";
+import React from "react";
 
 interface AuroraTextProps extends HTMLMotionProps<"div"> {
   className?: string;
   children: React.ReactNode;
-  as?: string | React.ComponentType<any>;
+  as?: string | React.ComponentType<HTMLMotionProps<"div">>;
 }
 
 export function AuroraText({
