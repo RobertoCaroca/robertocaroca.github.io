@@ -35,7 +35,7 @@ const tips = [
 export default function AITips() {
   return (
     <section id="tips-section" className="py-24 sm:py-32">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <TextAnimate 
           as="h2"
           className="mb-6 sm:mb-8 text-3xl sm:text-4xl lg:text-5xl font-bold dark:text-white text-center font-display tracking-tight"
@@ -44,16 +44,11 @@ export default function AITips() {
           delay={0.2}
           duration={0.5}
         >
-          Consejos para usar LLM
+          Consejos
         </TextAnimate>
-        <TextAnimate 
-          className="mb-12 text-lg sm:text-xl lg:text-2xl text-gray-600 dark:text-gray-300 text-center"
-          animation="blurInUp"
-          by="word"
-          delay={0.3}
-        >
-          Mejora tus resultados con estos consejos
-        </TextAnimate>
+        <p className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-relaxed">
+          Aprende a sacar el máximo provecho de la IA con estos consejos prácticos.
+        </p>
         <div className="grid grid-cols-1 gap-6 sm:gap-8 md:grid-cols-2 lg:grid-cols-4">
           {tips.map((tip) => (
             <Card key={tip.title} {...tip} />

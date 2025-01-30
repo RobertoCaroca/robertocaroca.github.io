@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { TextAnimate } from "@/components/ui/text-animate";
-import { TextReveal } from "@/components/ui/text-reveal";
 import { Button } from "@/components/ui/button";
 
 export default function AboutMe() {
@@ -32,42 +31,24 @@ export default function AboutMe() {
           </div>
 
           <div className="max-w-2xl mx-auto">
-            <ul className="space-y-0 list-none">
-              <li>
-                <TextReveal 
-                  text="Licenciado en Negocios y Economía"
-                  className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal"
-                />
+            <ul className="space-y-2 list-none">
+              <li className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal">
+                Licenciado en Negocios y Economía
               </li>
-              <li>
-                <TextReveal 
-                  text=" Más de 15 años desarrollando producto tecnológico"
-                  className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal"
-                />
+              <li className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal">
+                Más de 15 años desarrollando producto tecnológico
               </li>
-              <li>
-                <TextReveal 
-                  text="Magíster en Filosofía de la Mente y Estudios Cognitivos"
-                  className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal"
-                />
+              <li className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal">
+                Magíster en Filosofía de la Mente y Estudios Cognitivos
               </li>
-              <li>
-                <TextReveal 
-                  text="Certificado del MIT en Desorrollo de Software"
-                  className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal"
-                />
+              <li className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal">
+                Certificado del MIT en Desorrollo de Software
               </li>
-              <li>
-                <TextReveal 
-                  text="Certificado de Stanford en Desarrollo de Productos Tecnologicos"
-                  className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal"
-                />
+              <li className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal">
+                Certificado de Stanford en Desarrollo de Productos Tecnologicos
               </li>
-              <li>
-                <TextReveal 
-                  text="Más de 2 años desarrollando productos con herramientas de AI"
-                  className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal"
-                />
+              <li className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal">
+                Más de 2 años desarrollando productos con herramientas de AI
               </li>
             </ul>
           </div>
