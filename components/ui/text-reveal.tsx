@@ -23,29 +23,16 @@ export const TextReveal = ({ text, className }: TextRevealProps) => {
     <motion.div 
       ref={ref}
       style={{ opacity }}
-      className={cn("relative py-10", className)}
+      className={cn("relative", className)}
     >
-      <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 leading-relaxed font-sans">
-        {words.map((word, i) => (
-          <motion.span
-            key={i}
-            className="inline-block mx-1"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ 
-              duration: 0.5,
-              delay: i * 0.05,
-              ease: [0.4, 0, 0.2, 1]
-            }}
-            viewport={{ 
-              once: true,
-              margin: "-100px"
-            }}
-          >
-            {word}{" "}
-          </motion.span>
-        ))}
-      </p>
+      <div
+        className={cn(
+          "text-left",
+          className
+        )}
+      >
+        {text}
+      </div>
     </motion.div>
   );
 };

@@ -32,10 +32,26 @@ export default function AboutMe() {
           </div>
 
           <div className="max-w-2xl mx-auto">
-            <TextReveal 
-              text="• 15 años desarrollando producto tecnológico  • Magíster en Filosofía de la Mente y Estudios Cognitivos  • 2 años desarrollando productos con AI"
-              className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-relaxed"
-            />
+            <ul className="space-y-0 list-none">
+              <li>
+                <TextReveal 
+                  text="15 años desarrollando producto tecnológico"
+                  className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal"
+                />
+              </li>
+              <li>
+                <TextReveal 
+                  text="Magíster en Filosofía de la Mente y Estudios Cognitivos"
+                  className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal"
+                />
+              </li>
+              <li>
+                <TextReveal 
+                  text="2 años desarrollando productos con AI"
+                  className="mx-auto max-w-xl text-lg text-gray-600 dark:text-gray-300 text-center leading-normal"
+                />
+              </li>
+            </ul>
           </div>
           <div className="text-center mt-16">
             <Button href="#ai-section">
