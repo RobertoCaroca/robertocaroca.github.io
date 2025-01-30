@@ -14,6 +14,13 @@ interface AITool {
 
 const aiTools: AITool[] = [
   {
+    name: "OpenRouter AI",
+    description: "Compara y accede a los mejores modelos de lenguaje (LLMs)",
+    image: "/screenshots/openrouter.png",
+    url: "https://openrouter.ai/rankings",
+    category: "LLMs"
+  },
+  {
     name: "Grazia AI",
     description: "Plataforma de videos y fotografia de productos con IA",
     image: "/screenshots/grazia.png",
